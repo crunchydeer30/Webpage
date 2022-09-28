@@ -1,0 +1,279 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+::selection {
+	background: #BBBBBB;
+}
+
+/* Navbar */
+
+header {
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1c1b1b;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav a {
+    text-decoration: none;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.logo a {
+    font-size: 25px;
+    color: white;
+    font-weight: 600;
+}
+
+header nav ul { 
+    list-style-type: none;
+    margin-right: 10px;
+
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: white;
+    margin-right: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+header nav ul li a:hover {
+    background: white;
+    color: black;
+}
+
+/* Main */
+
+main {
+    background-image: url("background/contacts.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+    
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+
+.container h1 {
+    margin-top: 5vh;
+    color: white;
+    font-size: 46px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.contents {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+}
+
+.contents form {
+    background: white;
+    width: 60%;
+    padding: 3%;
+}
+
+form h2 {
+    font-family:'PT Sans Caption', sans-serif;
+}
+
+.form-row {
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-column {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+}
+
+.form-column p {
+    font-family:'PT Sans Caption', sans-serif;
+}
+
+.form-column input {
+    margin-top: 2%;
+    padding: 0.75em 0.5em;
+    border: 1px solid gray;
+}
+
+.form-message {
+    margin-top: 5%;
+}
+
+.form-message p {
+    font-family:'PT Sans Caption', sans-serif;
+}
+
+.form-message input {
+    margin-top: 2%;
+    width: 100%;
+    padding-bottom: 30%;
+}
+
+.submit-button {
+    margin-top: 5%;
+    background: #1c1b1b;
+    color: white;
+    font-family:'PT Sans Caption', sans-serif;
+    font-size: 18px;
+    padding: 0.5em 2em;
+}
+
+.info {
+    width: 30%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts {
+    background: #EEEEEE;
+    width: 100%;
+    height: 50%;
+    margin-bottom: 10%;
+}
+
+.map {
+    background: white;
+    height: 50%;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #1c1b1b;
+    height: 400px;
+}
+
+.container-footer {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    height: 100%;
+    background: #1c1b1b;
+}
+
+.logo-footer {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1c1b1b;
+}
+
+.logo-footer a {
+    text-decoration: none;
+}
+
+.logo-footer h2 {
+    background: white;
+    color: black;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    padding: 7px;
+    border-radius: 5px;
+
+}
+
+.info-footer {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    background: #1c1b1b;
+}
+
+.info-footer ul {
+    display: flex;
+    list-style-type: none;
+    background: #1c1b1b;
+}
+
+.info-footer li {
+    display: inline;
+    margin-right: 20px;
+    background: #1c1b1b;
+}
+
+.info-footer li:last-child {
+    margin-right: 0;
+}
+
+.info-footer a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    background: #1c1b1b;
+}
+
+.social-links {
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+    background: #1c1b1b;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-right: 20px;
+    background: #1c1b1b;
+}
+
+.social-links a:last-child {
+    margin-right: 0;
+} 
+
+.copyright {
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 10px;
+    margin-top: auto;
+    color: white;
+    text-align: center;
+    background: #1c1b1b;
+}

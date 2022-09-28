@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/blogpost.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=PT+Sans+Caption&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title>Статья</title>
+    </head>
+
+    <body>       
+        <header>
+            <nav>
+                <div class="logo">
+                    <a href = "#">My News</a>
+                </div>
+                <ul>
+                    <li><a href="#">Блог</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="#">О нас</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <section class="container">
+                
+                <img src="images/videogame.jpeg" class="article-head" alt="AI videogame">
+                
+                <h1 class="article-name">В Steam вышла игра, созданная с помощью ИИ</h1>
+                
+                <section class="contents">
+                    <p>На платформе Steam появилась игра This Girl Does Not Exist, почти полностью созданная алгоритмами искусственного интеллекта.</p>
+                    <p>Об игре рассказал Kotaku, автор которого пообщался в Discord с представительницей Cute Pen Games. Студия состоит из двух человек,
+                     супружеской пары. Женщина под ником mrspotatoes рассказала, что её муж с самого начала работы над проектом подозревал, что подобную разработку осудят. 
+                     Он ждал негативных отзывов, в том числе и обвинений в халтуре.
+                    </p>
+                    <p>Она же сама, по её словам, была настроена более оптимистично, ожидая, что людям будет любопытно посмотреть, на что способны современные технологии. 
+                    Искусственный интеллект создал в этой игре всё: изображения персонажей, сюжет и музыку, подчеркнула создательница игры.
+                    </p>
+                    <p>По её словам, создание такой игры сопряжено со своими уникальными проблемами. Сюжет игры, в которой надо собирать пазлы, предполагает присутствие 
+                        нескольких привлекательных персонажей, с которыми главный герой мог бы завязывать романтические отношения. У каждой «девушки» прописан свой образ, 
+                        история и уникальный закадровый голос.
+                    </p>
+                    <p>Для получения подходящих изображений пришлось пройти несколько итераций в Midjourney. Потребовались также некоторые усилия, чтобы заставить алгоритм 
+                        генерировать изображения одного персонажа в разных позах и в разном окружении. Какие ещё алгоритмы использовали в работе, не уточняется.
+                    </p>
+                    <iframe src="https://www.youtube.com/embed/TPZ-KsKpxPs"></iframe>
+                    <p>По окончании работы над проектом супруги разослали копии игры примерно 250 профильным ютуберам, и отрицательных отзывов от них почти не последовало. 
+                        При этом продажи игры — худшие из каталога компании. Множество негативных отзывов последовала после того, как один из YouTube-блогеров запустил прямую 
+                        трансляцию, и её зрители в чате начали массово выражать недовольство проектом.
+                    </p>
+                    <p>Причём, по словам mrspotatoes, людям не понравилась не сама игра, а то, что она разработана искусственными интеллектом. Одни опасались, что искусственный
+                         интеллект лишит их работы, другие вообще почувствовали от игры какие-то «мерзкие вибрации».
+                    </p>
+                    <p>Впрочем, негатив со стороны общественности авторов не смутил — они намерены продолжать работу в данном направлении, и теперь ИИ решили привлечь к созданию
+                         игры для взрослых. Хотя его участие будет пока ограниченным: возможно, искусственный разум поможет в разработке пользовательского интерфейса или прорисовке фона.
+                    </p>
+                    <p>«Если бы я снова создавала подобную игру, я бы постаралась раскрыть использование искусственного интеллекта только после её завершения. Интересно, какова была бы
+                         тогда реакция, потому что в случае с This Girl Does Not Exist , я думаю, победили предрассудки».
+                    </p>
+                </section>
+                
+                <section class="info">
+                    <div class="author">
+                        <img src="images/journalist.jpg" alt="Author photo">
+                        <h3>Алена Иванова</h3>
+                    </div>
+                    <time>
+                        21.09.2022
+                    </time>
+                </section>
+                
+                <section class="tags">
+                    <p>ДРУГИЕ СТАТЬИ ПО ТЕМАМ: <span><a href="#" class="tag" id="videogames">ВИДЕОИГРЫ</a></span></p>
+                </section>  
+                
+                <section class="comment-section">
+                    <h2>3 Комментария</h2>
+                    <form>
+                        <div class="identity">
+                            <input name="name" placeholder="Имя" autocomplete="off" required>
+                            <input type="text" name="email" placeholder="Email" autocomplete="off" required>
+                        </div>                        
+                        <input type="text" name="comment" placeholder="Комментарий" autocomplete="off" class="post-comment" required>
+                        <input type="submit" name="post-comment" class="submit-button">
+                    </form>
+
+                    <article class="comment">
+                        <div class="review-header">
+                            <div class="author-info">
+                                <img src="images/customer.jpg" alt="Comment author photo">
+                                <h3 class="author-name">Алексей Петров</h3>
+                            </div>
+                            <time>22.09.2022</time>
+                        </div>
+                        <div class="review-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="comment">
+                        <div class="review-header">
+                            <div class="author-info">
+                                <img src="images/customer.jpg" alt="Comment author photo">
+                                <h3 class="author-name">Алексей Петров</h3>
+                            </div>
+                            <time>22.09.2022</time>
+                        </div>
+                        <div class="review-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="comment">
+                        <div class="review-header">
+                            <div class="author-info">
+                                <img src="images/customer.jpg" alt="Comment author photo">
+                                <h3 class="author-name">Алексей Петров</h3>
+                            </div>
+                            <time>22.09.2022</time>
+                        </div>
+                        <div class="review-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
+                                labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
+                                nisi ut aliquip ex ea commodo consequat.
+                            </p>
+                        </div>
+                    </article>
+                        
+                    </section>
+                </section>
+            </section>
+        </main>
+
+        <footer>
+            <section class="container-footer">
+                <div class="logo-footer">
+                    <a href="#"><h2>My News</h2></a>
+                </div>
+                <nav class="info-footer">
+                    <ul>
+                        <li><a href="">Поддержка</a></li>
+                        <li><a href="">Контакты</a></li>
+                        <li><a href="">Политика конфиденциальности</a></li>
+                        <li><a href="">О нас</a></li>                       
+                    </ul>
+                </nav>
+                <section class = "social-links">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                    <a href="#" class="fa fa-reddit"></a>
+                </section>
+                <p class="copyright">&copy 2022 My News. Все права защищены.</p>
+            </section>
+        </footer>
+    </body>
+</html>    
